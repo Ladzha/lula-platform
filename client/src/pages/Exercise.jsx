@@ -43,7 +43,7 @@ const Exercise = () => {
     <>
     {img?(    <div className='containerColumn'>
     <p className='titleMain'> Listen to what they say about this photo </p>
-    <p className='instruction'>Get ready to enhance your language skills through interactive exercises. <br/>Listen to audio recordings from real people discussing different scenarios. Absorb the nuances of language as it's naturally spoken, and feel free to leave comments or even create your own recordings to enrich the learning experience. Let's get started!</p>
+    <p className='instruction'>Get ready to enhance your language skills through interactive exercises. <br/>Listen to audio recordings from real people discussing different scenarios. Absorb the nuances of language as it's naturally spoken, and feel free to leave comments or create your own recordings to enrich the learning experience. Let's get started!</p>
     <div>
         
         <div className='exerciseContainer'>

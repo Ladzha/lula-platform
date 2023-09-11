@@ -19,7 +19,7 @@ const Home = () => {
       <div className='containerColumn'>
         <p className='titleHomeMain'> Listen Up and Learn with Lula </p>
         <p className='moto'>Learn real language from real people</p>
-        <p className='instruction'><span className='bold'>Welcome to Lula</span> - your gateway to authentic language learning!<br/>Immerse yourself in real-world conversations, hear diverse accents, and grasp the essence of language through audio records. Whether you're exploring new scenarios or contributing your voice, Lula empowers you to learn and connect like never before. Start your journey today and experience language in its truest form.</p>
+        <p className='instruction'><span className='bold'>Welcome to LULA</span> - your gateway to authentic language learning!<br/>Immerse yourself in real-world conversations, hear diverse accents, and grasp the essence of language through audio records. Whether you're exploring new scenarios or contributing your voice, Lula empowers you to learn and connect like never before. Start your journey today and experience language in its truest form.</p>
           <div className='homeContainer'>
           {sectionPreviews && sectionPreviews.length > 0 ? (<>
             {sectionPreviews.map((preview, index)=>{

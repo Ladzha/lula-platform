@@ -31,11 +31,9 @@ app.use('/api', languageRouter);
 app.use('/api', sectionRouter);
 app.use('/api', userRouter);
 
-
 app.get('/server', (request, response)=>{
     response.send('I am working');
 })
-
 
 // Save image link to the database
 app.post('/api/save-image-link', async (req, res) => {
@@ -49,7 +47,6 @@ app.post('/api/save-image-link', async (req, res) => {
     res.status(500).json({ error: 'Internal Server Error' });
   }
 });
-
 
 app.listen(process.env.PORT, ()=>{
     console.log('I am listening') 
